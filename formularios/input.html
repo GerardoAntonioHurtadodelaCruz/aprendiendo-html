@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Etiqueta input</title>
+</head>
+
+<body>
+    <header id="menu">
+        <nav class="navegacion">
+            <a href="/index.html">Inicio</a>
+            <a href="/introduccion.html">Introducción</a>
+            <a href="/tags.html">Lista de etiquetas</a>
+            <a href="/ejemplos.html">Ejemplos</a>
+            <a href="/eventos.html">Eventos</a>
+            <a href="/contactame.html">Contactame</a>
+        </nav>
+    </header>
+
+    <section>
+        <h1>&lt;input&gt;&lt;/input&gt;</h1>
+        <div>
+            <p>La etiqueta &lt;input&gt; especifica un campo donde el usuario puede ingresar datos</p>
+            <p>El elemento &lt;input&gt; es le elemento de formulario más importante</p>
+            <p>El elemento &lt;input&gt; se puede mostrar de varias formas, según el tipo de atributo</p>
+            <p>Los diferentes tipos deentrada son: </p>
+            <ul id="estos">
+                <li>&lt;input type="button"&gt;</li>
+                <li>&lt;input type="checkbox"&gt;</li>
+                <li>&lt;input type="color"&gt;</li>
+                <li>&lt;input type="date"&gt;</li>
+                <li>&lt;input type="datetime-local"&gt;</li>
+                <li>&lt;input type="email"&gt;</li>
+                <li>&lt;input type="file"&gt;</li>
+                <li>&lt;input type="hidden"&gt;</li>
+                <li>&lt;input type="image"&gt;</li>
+                <li>&lt;input type="month"&gt;</li>
+                <li>&lt;input type="number"&gt;</li>
+                <li>&lt;input type="password"&gt;</li>
+                <li>&lt;input type="radio"&gt;</li>
+                <li>&lt;input type="range"&gt;</li>
+                <li>&lt;input type="reset"&gt;</li>
+                <li>&lt;input type="search"&gt;</li>
+                <li>&lt;input type="submit"&gt;</li>
+                <li>&lt;input type="tel"&gt;</li>
+                <li>&lt;input type="text"&gt; (default)</li>
+                <li>&lt;input type="time"&gt;</li>
+                <li>&lt;input type="url"&gt;</li>
+                <li>&lt;input type="week"&gt;</li>
+            </ul>
+        </div>
+        <img src="/sources/formtag.png" alt="Etiqueta form">
+    </section>
+
+    <section class="all-tags">
+        <h2>Atributos</h2>
+        <p>Todas las etiquetas pueden poseer algun atributo, a continuación se mostraran los correspondientes a esta
+            etiqueta:</p>
+        <div>
+            <table>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Tipo de Atributo</th>
+                    <th>Descripción</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>accept</td>
+                    <td>Individual</td>
+                    <td>Especifica un filtro para los típos de archivos que el usuario puede elegir en el cuadro de diálogo de entrada (solo para type="file")</td>
+                    <td> file extension <br> audio/* <br> video/* <br> image/* <br> media_type </td>
+                </tr>
+                <tr>
+                    <td>alt</td>
+                    <td>individual</td>
+                    <td>Especifica un texto alternativo para las imágenes(solo para type="image")</td>
+                    <td>texto</td>
+                </tr>
+                <tr>
+                    <td>autocomplete</td>
+                    <td>individual</td>
+                    <td>Especifica si un elemento &lt;input&gt; debe tener habilitado el autocompletado</td>
+                    <td>on <br> off </td>
+                </tr>
+                <tr>
+                    <td>autofocus</td>
+                    <td>individual</td>
+                    <td>Especifica que un elemento &lt;input&gt; debe recibir el foco automáticamente cuando se carga la página </td>
+                    <td>autofocus</td>
+                </tr>
+                <tr>
+                    <td>checked</td>
+                    <td>individual</td>
+                    <td>Especifica que se debe preseleccionar un elemento &lt;input&gt; cuando se carga la página(para type="checkbox" o type="radio")</td>
+                    <td>checked</td>
+                </tr>
+                <tr>
+                    <td>dirname</td>
+                    <td>individual</td>
+                    <td>Especifica que se enviará la dirección del texto</td>
+                    <td>inputname.dir</td>
+                </tr>
+                <tr>
+                    <td>disabled</td>
+                    <td>individual</td>
+                    <td>Especifica que se debe deshabilitar un elemento &lt;input&gt;</td>
+                    <td>disabled</td>
+                </tr>
+                <tr>
+                    <td>form</td>
+                    <td>individual</td>
+                    <td>Especifica el formulario al que pertenece el elemento &lt;input&gt;</td>
+                    <td>form_id</td>
+                </tr>
+                <tr>
+                    <td>formaction</td>
+                    <td>individual</td>
+                    <td>Especifica la URl del archivo que procesará el control de entrada cuando se envie el formulario (para type="submit" and type="image")</td>
+                    <td>URL</td>
+                </tr>
+                <tr>
+                    <td>formenctype</td>
+                    <td>individual</td>
+                    <td>Especifica cómo se debe codificar los datos del formulario al enviarlos al servidor (para type="submit" y type="image")</td>
+                    <td> application/x-www-form-urlencoded <br> multipart/form-data <br> test/plain </td>
+                </tr>
+                <tr>
+                    <td>formmethod</td>
+                    <td>individual</td>
+                    <td>Define el método HTTP para enviar datos a la URL de acción(para type="submit" y type="image")</td>
+                    <td>get <br> post </td>
+                </tr>
+                <tr>
+                    <td>formnovalidate</td>
+                    <td>individual</td>
+                    <td>Define que los elementos del formulario no deben validarse cuando se envían</td>
+                    <td>formnovalidate</td>
+                </tr>
+                <tr>
+                    <td>formtarget</td>
+                    <td>individual</td>
+                    <td>Especifica dónde mostrar la respuesta que se recibe después de enviar el formulario (para type="submit" y type="image")</td>
+                    <td>_blank <br> _self <br> _parent  <br> _top <br> framename </td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>individual</td>
+                    <td>Especifica la altura de un elemento &lt;input&gt;(solo para type="image")</td>
+                    <td>pixels</td>
+                </tr>
+                <tr>
+                    <td>list</td>
+                    <td>individual</td>
+                    <td>Se refiere a un elemento &lt;datalist&gt; que contiene opciones predefinidas para un elemento &lt;input&gt;</td>
+                    <td>datalist_id</td>
+                </tr>
+                <tr>
+                    <td>max</td>
+                    <td>individual</td>
+                    <td>Especifica el valor máximo para un elemento &lt;input&gt;</td>
+                    <td>number <br> date </td>
+                </tr>
+                <tr>
+                    <td>maxlength</td>
+                    <td>individual</td>
+                    <td>Especifica el número máximo de caracteres permitidos en un elemento &lt;input&gt;</td>
+                    <td>number</td>
+                </tr>
+                <tr>
+                    <td>min</td>
+                    <td>individual</td>
+                    <td>Especifica un valor mínimo para un elemento &lt;input&gt;</td>
+                    <td>number <br>  date</td>
+                </tr>
+                <tr>
+                    <td>minlength</td>
+                    <td>individual</td>
+                    <td>Especifica el número mínimo de caracteres necesarios en un elemento &lt;input&gt;</td>
+                    <td>number</td>
+                </tr>
+                <tr>
+                    <td>multiple</td>
+                    <td>individual</td>
+                    <td>Especifica que un usuario puede ingresar más de un valor en un elemento &lt;input&gt;</td>
+                    <td>multiple</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>individual</td>
+                    <td>Especifica el nombre de un elemento &lt;input&gt;</td>
+                    <td>text</td>
+                </tr>
+                <tr>
+                    <td>pattern</td>
+                    <td>individual</td>
+                    <td>Especifica un expresión regular con la que se verifica el valor de un elemento &lt;input&gt;</td>
+                    <td>ragexp</td>
+                </tr>
+                <tr>
+                    <td>placeholder</td>
+                    <td>individual</td>
+                    <td>Especifica una breve sugerencia que describe el valor esperado de un elemento &lt;input&gt;</td>
+                    <td>text</td>
+                </tr>
+                <tr>
+                    <td>readonly</td>
+                    <td>individual</td>
+                    <td>Especifica que un campo de entrada es de solo lectura</td>
+                    <td>readonly</td>
+                </tr>
+                <tr>
+                    <td>required</td>
+                    <td>individual</td>
+                    <td>Especifica que se debe completar un campo de entrada antes de enviar el formulario</td>
+                    <td>required</td>
+                </tr>
+                <tr>
+                    <td>size</td>
+                    <td>individual</td>
+                    <td>Especifica el ancho, en caracteres, de un elemento &lt;input&gt;</td>
+                    <td>number</td>
+                </tr>
+                <tr>
+                    <td>src</td>
+                    <td>individual</td>
+                    <td>Especifica la URL de la imagen que se utilizará como botón de envío(solo para type="image")</td>
+                    <td>URL</td>
+                </tr>
+                <tr>
+                    <td>step</td>
+                    <td>individual</td>
+                    <td>Especifica el intervalo entre números legales en un campo de entrada</td>
+                    <td>number <br> any </td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>individual</td>
+                    <td>Especifica el tipo de elemento &lt;input&gt; que se mostrará</td>
+                    <td><a href="#estos">Estos</a> </td>
+                </tr>
+                <tr>
+                    <td>value</td>
+                    <td>individual</td>
+                    <td>Especifica el valor de un elemento &lt;input&gt;</td>
+                    <td>text</td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>individual</td>
+                    <td>Especifica el ancho de un elemento &lt;input&gt;(solo para type="image")</td>
+                    <td>pixels</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>

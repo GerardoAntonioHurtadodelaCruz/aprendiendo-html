@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Etiqueta form</title>
+</head>
+
+<body>
+    <header id="menu">
+        <nav class="navegacion">
+            <a href="/index.html">Inicio</a>
+            <a href="/introduccion.html">Introducción</a>
+            <a href="/tags.html">Lista de etiquetas</a>
+            <a href="/ejemplos.html">Ejemplos</a>
+            <a href="/eventos.html">Eventos</a>
+            <a href="/contactame.html">Contactame</a>
+        </nav>
+    </header>
+
+    <section>
+        <h1>&lt;form&gt;&lt;/form&gt;</h1>
+        <div>
+          <p>La etiqueta &lt;form&gt; se utiliza para crear un formulario en HTML para la entrada del usuario</p>
+          <p>El elemento &lt;form&gt; puede contener uno o  más de los siguientes elementos: </p>
+          <ul>
+              <li>&lt;input&gt;</li>
+              <li>&lt;textarea&gt;</li>
+              <li>&lt;button&gt;</li>
+              <li>&lt;select&gt;</li>
+              <li>&lt;option&gt;</li>
+              <li>&lt;optgroup&gt;</li>
+              <li>&lt;fieldset&gt;</li>
+              <li>&lt;label&gt;</li>
+              <li>&lt;output&gt;</li>
+          </ul>
+        </div>
+        <img src="/sources/formtag.png" alt="Etiqueta form">
+    </section>
+
+    <section class="all-tags">
+        <h2>Atributos</h2>
+        <p>Todas las etiquetas pueden poseer algun atributo, a continuación se mostraran los correspondientes a esta
+            etiqueta:</p>
+        <div>
+            <table>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Tipo de Atributo</th>
+                    <th>Descripción</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>accept-charset</td>
+                    <td>Individual</td>
+                    <td>Especifica las codificaciones de caracteres que se utilizarán para el envío del formulario // character_set</td>
+                </tr>
+                <tr>
+                    <td>action</td>
+                    <td>Individual</td>
+                    <td>Especifica dónde enviar los datos del formulario cuando este se envía // URL</td>
+                </tr>
+                <tr>
+                    <td>autocomplete</td>
+                    <td>Individual</td>
+                    <td>Especifica si un formulario debe tener autocompletado activado o desactivado // on off</td>
+                </tr>
+                <tr>
+                    <td>enctype</td>
+                    <td>Individual</td>
+                    <td>Especifica cómo se debe codificar los datos del formulario cuando se envían al servidor (solo para metodo post)</td>
+                    <td>	application/x-www-form-urlencoded <br> multipart/form-data <br> text/plain </td>
+                </tr>
+                <tr>
+                    <td>method</td>
+                    <td>Individual</td>
+                    <td>Especifica el método HTTP que se utilizará al enviar datos de formulario</td>
+                    <td>get <br> post </td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>Individual</td>
+                    <td>Especifica el nombre del formulario</td>
+                    <td>texto</td>
+                </tr>
+                <tr>
+                    <td>novalidate</td>
+                    <td>Individual</td>
+                    <td>Especifica que el formulario no debe validarse cuando se envía</td>
+                    <td>novalidate</td>
+                </tr>
+                <tr>
+                    <td>rel</td>
+                    <td>Individual</td>
+                    <td>Especifica la relación enrte un recurso vinculado y el documento actual</td>
+                    <td>external <br> help <br> license <br> next <br> nofollow <br> noopener <br> noreferrer <br> opener <br> prev <br> search </td>
+                </tr>
+                <tr>
+                    <td>target</td>
+                    <td>Individual</td>
+                    <td>Especifica dónde mostrar la respuesta que recibe después de enviar el formulario</td>
+                    <td>_blank <br> _self <br> _parent <br> _top </td>
+                </tr>
+                <tr>
+                    <td>accesskey</td>
+                    <td>Global</td>
+                    <td>Especifica una tecla de método abreviado para activar/ enfocar un elemento</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td>Global</td>
+                    <td>Especifica uno o más nombre de clase para un elemento</td>
+                </tr>
+                <tr>
+                    <td>contenteditable</td>
+                    <td>Global</td>
+                    <td>Especifica si el contenido de un elemento es editable o no</td>
+                </tr>
+                <tr>
+                    <td>data-*</td>
+                    <td>Global</td>
+                    <td>Se utiliza para almacenar datos personalizados privados de la página</td>
+                </tr>
+                <tr>
+                    <td>dir</td>
+                    <td>Global</td>
+                    <td>Especifica la dirección del texto del contenido de un elemento</td>
+                </tr>
+                <tr>
+                    <td>draggable</td>
+                    <td>Global</td>
+                    <td>Especifica si un elemento se puede arrastrar o no</td>
+                </tr>
+                <tr>
+                    <td>hidden</td>
+                    <td>Global</td>
+                    <td>Especifica que un elemento aún no es o ya no es relevante</td>
+                </tr>
+                <tr>
+                    <td>id</td>
+                    <td>Global</td>
+                    <td>Especifica una identificación única para un elemento</td>
+                </tr>
+                <tr>
+                    <td>lang</td>
+                    <td>Global</td>
+                    <td>Especifica el idioma del contenido del elemento</td>
+                </tr>
+                <tr>
+                    <td>spellcheck</td>
+                    <td>Global</td>
+                    <td>Especifica si se revisará la ortografía y la grmática del elemento o no</td>
+                </tr>
+                <tr>
+                    <td>style</td>
+                    <td>Global</td>
+                    <td>Especifica un estilo CSS en línea para un elemento</td>
+                </tr>
+                <tr>
+                    <td>tabindex</td>
+                    <td>Global</td>
+                    <td>Especifica el orden de tabulación de un elemento</td>
+                </tr>
+                <tr>
+                    <td>title</td>
+                    <td>Global</td>
+                    <td>Especifica información adicional sobre un elemento</td>
+                </tr>
+                <tr>
+                    <td>translate</td>
+                    <td>Global</td>
+                    <td>Especifica si el contenido de un elemento debe traducirse o no</td>
+                </tr>
+                <tr>
+                    <td>xmlns</td>
+                    <td>Individual</td>
+                    <td>Especifica el atributo del espacio de nombres XML</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
