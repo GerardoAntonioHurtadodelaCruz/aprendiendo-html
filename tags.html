@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Learning HTML5</title>
+</head>
+
+<body>
+    <header id="menu">
+        <nav class="navegacion">
+            <a href="/index.html">Inicio</a>
+            <a href="/introduccion.html">Introducción</a>
+            <a href="/tags.html">Lista de etiquetas</a>
+            <a href="/ejemplos.html">Ejemplos</a>
+            <a href="/eventos.html">Eventos</a>
+            <a href="/contactame.html">Contactame</a>
+        </nav>
+    </header>
+
+    <section class="listilla">
+        <h1>Tipo de Etiquetas</h1>
+        <div>
+            <ul>
+                <li><a href="#basics">Basicas</a></li>
+                <li><a href="#formateo">Formateo</abbr></a></li>
+                <li><a href="#forms">Formularios y Entradas</a></li>
+                <li><a href="#marcos">Marcos</a></li>
+                <li><a href="#imagenes">Imagenes</a></li>
+                <li><a href="#audio">Audio | Video</a></li>
+                <li><a href="#enlaces">Enlaces</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#tablas">Tablas</a></li>
+                <li><a href="#estilos">Estilos y Semántica</a></li>
+                <li><a href="#informacion">Información Meta</a></li>
+                <li><a href="#programacion">Programación</a></li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Etiquetas Basicas</h2>
+        <div id="basics">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td><a href="">&lt;!DOCTYPE&gt;</a></td>
+                    <td>Define el tipo de documento que se maneja en html</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/html.html" target="_blank">&lt;html&gt;</a></td>
+                    <td>Define un documento html</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/head.html" target="_blank">&lt;head&gt;</a></td>
+                    <td>Contiene meta data e Información de la pagina como tal</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/title.html" target="_blank">&lt;title&gt;</a></td>
+                    <td>Define el titulo para la pagina, este va a aparecer en la cabezera de la pagina</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/body.html" target="_blank">&lt;body&gt;</a></td>
+                    <td>Define el cuerpo del documento, osea que aqui va a ir todo el codigo que se muestra en el
+                        navegador</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/h1ah6.html" target="_blank">&lt;h1&gt; a &lt;h6&gt;</a></td>
+                    <td>Se conocen como headers, sirven para poner titlos, entre más pequeño el número es más importante
+                        el titulo y más grande la fuente</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/p.html" target="_blank">&lt;p&gt;</a></td>
+                    <td>Esto se usa para hacer un parrafo y escribir texto simple adentro</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/br.html" target="_blank">&lt;br&gt;</a></td>
+                    <td>Inserta un quiebre de linea, osea un espacio en blanco para poder separar elementos</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/hr.html" target="_blank">&lt;hr&gt;</a></td>
+                    <td>Define un cambio de contenido, esto va a dar un espacio de separación entre elementos y tambien
+                        pinta una linea horizontal</td>
+                </tr>
+                <tr>
+                    <td><a href="/basic/comentarios.html" target="_blank">&lt;!--...--&gt;</a></td>
+                    <td>Con esto se puede generar un comentario en cualquier parte del documento html</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Etiquetas de Formateo</h2>
+        <div id="formateo">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/abbr.html">&lt;abbr&gt;</a></td>
+                    <td>Define una abrebiación, al poner el mouse sobre este elemento aparece un tooltip con el
+                        significado</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/address.html">&lt;address&gt;</a></td>
+                    <td>Define información de contacto como la dirección o el autor</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/b.html">&lt;b&gt;</a></td>
+                    <td>Define un texto en negrita</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/bdi.html">&lt;bdi&gt;</a></td>
+                    <td>La neta no se bien de que va esto pero dejen investigar XD</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/bdo.html">&lt;bdo&gt;</a></td>
+                    <td>Esta tampoco la neta XD</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/blockquote.html">&lt;blockquote&gt;</a></td>
+                    <td>Define una sección para hacer un tipo de "cita"</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/cite.html">&lt;cite&gt;</a></td>
+                    <td>Define el titulo de un trabajo</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/code.html">&lt;code&gt;</a></td>
+                    <td>Define una sección para que puedas ingresar codigo y se conserve su estilo</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/del.html">&lt;del&gt;</a></td>
+                    <td>No se bien que significa pero dejen investigo again XD</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/dfn.html">&lt;dfn&gt;</a></td>
+                    <td>Lo de arriba x2 XD</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/em.html">&lt;em&gt;</a></td>
+                    <td>Define texto enfatizado osea que se va a ver como en letra italic</td>
+                </tr>
+                <tr>
+                    <td><a href="/formateo/i.html">&lt;i&gt;</a></td>
+                    <td>Esta hace casi lo mismo que la de arriba jaja</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <div id="forms">
+            <h2>Formularios y Entradas</h2>
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/form.html">&lt;form&gt;</a></td>
+                    <td>Define un formulario HTML para entradas de usuario</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/input.html">&lt;input&gt;</a></td>
+                    <td>Define un control de entrada</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/textarea.html">&lt;textarea&gt;</a></td>
+                    <td>Define un control de entrada de varias lineas(área de texto)</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/button.html">&lt;button&gt;</a></td>
+                    <td>Define un botón al que se le puede hacer clic</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/select.html">&lt;select&gt;</a></td>
+                    <td>Define una lista desplegable</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/optgroup.html">&lt;optgroup&gt;</a></td>
+                    <td>Define un grupo de opciones relacionadas en una lista desplegable</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/option.html">&lt;option&gt;</a></td>
+                    <td>Define una opción en una lista desplegable</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/label.html">&lt;label&gt;</a></td>
+                    <td>Define una etiqueta para un elemento input del formulario</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/fieldset.html">&lt;fieldset&gt;</a></td>
+                    <td>Agrupa elementos relacionados en un Formulario</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/legend.html">&lt;legend&gt;</a></td>
+                    <td>Define un titulo para un elemento fieldset</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/datalist.html">&lt;datalist&gt;</a></td>
+                    <td>Especifica una lista de opciones predefinidas para controles de entrada</td>
+                </tr>
+                <tr>
+                    <td><a href="/formularios/output.html">&lt;output&gt;</a></td>
+                    <td>Define el resultado de un cálculo</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Marcos</h2>
+        <div id="marcos">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;iframe&gt;</td>
+                    <td>Define un marco en linea</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Imagenes</h2>
+        <div id="imagenes">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>Define una imagen</td>
+                </tr>
+                <tr>
+                    <td>&lt;map&gt;</td>
+                    <td>Define un mapa de imagenes del lado del cliente</td>
+                </tr>
+                <tr>
+                    <td>&lt;area&gt;</td>
+                    <td>Define un área dentro de un mapa de imágenes</td>
+                </tr>
+                <tr>
+                    <td>&lt;canvas&gt;</td>
+                    <td>Se utiliza para dibujar gráficos mediante comandos JavaScript</td>
+                </tr>
+                <tr>
+                    <td>&lt;figcaption&gt;</td>
+                    <td>Define un titulo para el elemento figure</td>
+                </tr>
+                <tr>
+                    <td>&lt;figure&gt;</td>
+                    <td>Especifica contenido autónomo</td>
+                </tr>
+                <tr>
+                    <td>&lt;picture&gt;</td>
+                    <td>Define un contenedor para múltiples recursos de imágenes</td>
+                </tr>
+                <tr>
+                    <td>&lt;svg&gt;</td>
+                    <td>Define un contenedor para gráficos SVG</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Audio y Video</h2>
+        <div id="audio">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;audio&gt;</td>
+                    <td>Define contenido de sonido</td>
+                </tr>
+                <tr>
+                    <td>&lt;source&gt;</td>
+                    <td>Define múltiples recursos multimedia para elementos video, audio y picture</td>
+                </tr>
+                <tr>
+                    <td>&lt;track&gt;</td>
+                    <td>Define pistas de texto para elementos video y audio</td>
+                </tr>
+                <tr>
+                    <td>&lt;video&gt;</td>
+                    <td>Define un video o una película</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Enlaces</h2>
+        <div id="enlaces">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Define un hipervínculo</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>Define la relación entre un documento y un recurso externo</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Define enlaces de navegación</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Listas</h2>
+        <div id="listas">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Define una lista desordenada</td>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt;</td>
+                    <td>Define una lista ordenada</td>
+                </tr>
+                <tr>
+                    <td>&lt;li&gt;</td>
+                    <td>Define un elemento de la lista</td>
+                </tr>
+                <tr>
+                    <td>&lt;dl&gt;</td>
+                    <td>Define una lista de Descripción</td>
+                </tr>
+                <tr>
+                    <td>&lt;dt&gt;</td>
+                    <td>Define un término / nombre en una lista de Descripción</td>
+                </tr>
+                <tr>
+                    <td>&lt;dd&gt;</td>
+                    <td>Define una Descripción de un término / nombre en una lista de descripciones</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Tablas</h2>
+        <div id="tablas">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Define una tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;caption&gt;</td>
+                    <td>Define un título de tabla </td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>Define una celda de encabezado en una tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Define una fila en la tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Define una celda en la tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;thead&gt;</td>
+                    <td>Agrupa el ccontenido del encabezado en una tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;tboody&gt;</td>
+                    <td>Agrupa el contenido del cuerpo en una tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;tfoot&gt;</td>
+                    <td>Agrupa el contenido del pie de página en una tabla</td>
+                </tr>
+                <tr>
+                    <td>&lt;col&gt;</td>
+                    <td>Especifica propiedades de columna para cada columna dentro de un elemento</td>
+                </tr>
+                <tr>
+                    <td>&lt;colgruoup&gt;</td>
+                    <td>Especifica un grupo de una o más columnas en una tabla para formatear</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Estilos y semantica</h2>
+        <div id="estilos">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;style&gt;</td>
+                    <td>Define información de estilo para un documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Define una sección en el documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Define una sección en el documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Define una encabezado para un documento o sección</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Define un pie de página para un documento o sección</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>Especifica el contenido principal de un documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Define una sección en un documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Define un articulo en el documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>Define un contenido aparte del contenido de la pagina</td>
+                </tr>
+                <tr>
+                    <td>&lt;details&gt;</td>
+                    <td>Define detalles adicionales que el usuario puede ver u ocultar</td>
+                </tr>
+                <tr>
+                    <td>&lt;dialog&gt;</td>
+                    <td>Define un cuadro de dialogo o una ventana</td>
+                </tr>
+                <tr>
+                    <td>&lt;summary&gt;</td>
+                    <td>Define un encabezado visible para un elemento &lt;detailsy&gt; </td>
+                </tr>
+                <tr>
+                    <td>&lt;data&gt;</td>
+                    <td>Agrega una traducción legible por una maquina</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Información y Metadatos</h2>
+        <div id="informacion">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Define información acerca del documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta&gt;</td>
+                    <td>Define informacion metadata acerca del documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;base&gt;</td>
+                    <td>Especifica la URL base de destino para todas las URL relativas de todo el documento.</td>
+                </tr>
+                <tr>
+                    <td>&lt;script&gt;</td>
+                    <td>Define un script del lado del cliente</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <hr>
+    <section class="all-tags">
+        <h2>Programación</h2>
+        <div id="programacion">
+            <table>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>&lt;script&gt;</td>
+                    <td>Define un script del lado del cliente</td>
+                </tr>
+                <tr>
+                    <td>&lt;noscript&gt;</td>
+                    <td>Define un tipo de contenido alternativo para los usuarios que no admite scripts del lado del
+                        cliente</td>
+                </tr>
+                <tr>
+                    <td>&lt;embed&gt;</td>
+                    <td>Define un contenedor para una aplicación externa(No HTML)</td>
+                </tr>
+                <tr>
+                    <td>&lt;object&gt;</td>
+                    <td>Define un objeto incrustrado</td>
+                </tr>
+                <tr>
+                    <td>&lt;param&gt;</td>
+                    <td>Define un parametro para un objeto</td>
+                </tr>
+            </table>
+            <a href="#menu">Subir al Menú</a>
+        </div>
+    </section>
+    <footer>
+        <p><em>Pagina desarrollada con fines Academicos | Gerardo Antonio Hurtado de la Cruz</em></p>
+    </footer>
+</body>
+
+</html>

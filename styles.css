@@ -1,0 +1,39 @@
+.all-tags td,th{
+        background-color: rgb(211, 203, 203);
+        border: 1px solid blue;
+        text-align: left;
+        padding: 8px;
+      
+}
+
+.all-tags a:hover{
+        color: red;
+}
+
+*{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navegacion{
+        text-align: center;
+}
+.navegacion a{
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        font-size: 25px;
+        border-bottom: 2px black solid;
+}
+
+.listilla ul{
+        list-style: none;
+}
+.listilla  a{
+        text-decoration: none;
+        color: blue;
+}
+
+.listilla a:hover{
+        color: red;
+}
+
